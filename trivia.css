@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'lumos';
+    src: url("assets/fonts/lumos/lumos.tff");
+}
+
+body {
+    font-family: lumos;
+    background: black;
+    color: white;
+}
+
+h3 {
+    font-size: 20px;
+    line-height: 22px;
+    font-family: lumos;
+
+}
+
+
+.header {
+    position: relative;
+    background: black;
+}
+.hp {
+    position: relative;
+    left: auto;
+    right: auto;
+    top: auto;
+    bottom: auto;
+}
+
+.bgimage {
+    width: 100%;
+    height: 100%;
+    min-height: 300px;
+    background: url(assets/images/hpheader.jpg) center center no-repeat;
+    opacity: 0.5;
+    background-size: cover;
+
+}
+
+/* .start-button {
+
+} */
+
+#container {
+    background: black;
+}
+
+#game {
+    width: 100%;
+    height: 100%;
+    background-image:  url(assets/images/hpsection.png);
+    background-repeat: no-repeat;
+    background: center;
+    text-align: center;
+    margin: 5%;
+    /* padding: 10%; */
+}
+
+.lost-image {
+    max-height: 400px;
+    height: 10%;
+    
+}
+
+#results {
+    margin: 10%;
+}
