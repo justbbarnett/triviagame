@@ -17,7 +17,7 @@ var qandA = [
     {   Q: "q1",
         question: "What is Harry Potter?",
         correct: "Wizard",
-        answers: ["Warlock", "Whitch", "Muggle", "Wizard"]
+        answers: ["Warlock", "Witch", "Muggle", "Wizard"]
     },
     {   Q: "q2",
         question: "What house of Hogwarts is Harry in?",
