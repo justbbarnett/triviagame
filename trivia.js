@@ -48,7 +48,7 @@ var timer = {
 
     
     start: function () {
-        timer.time = 5;
+        timer.time = 10;
         display();
         
         countDown = setInterval(timer.questionTime, 1000);
